@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body, html, .container {
+  height: 100%;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  background-color: #ffffff;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+.note {
+  .note {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+.note span {
+  white-space: nowrap;
+}
+}
+
+
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+  color: #555;
+  cursor: pointer;
+}
+
+.sidebar .active {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Main layout */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  padding: 15px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info {
+  font-size: 16px;
+  color: #333;
+}
+
+.profile-icon {
+  width: 35px;
+  height: 35px;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Upload box */
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 30px 30px; /* Top padding is increased */
+}
+
+
+.upload-box {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 100%;
+  max-width: 400px;
+}
+
+.upload-box h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.upload-box input[type="file"] {
+  margin-top: 10px;
+  color: #555;
+}
+
+.upload-message {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #3f9a0a;
+}
+
+/* Chat */
+.chat-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #f2f4f8;
+}
+
+.chat-area header {
+  padding: 15px 20px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  max-width: 60%;
+  padding: 12px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.message.user {
+  align-self: flex-end;
+  background-color: #007bff;
+  color: white;
+}
+
+.message.ai {
+  align-self: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.input-box {
+  display: flex;
+  padding: 15px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.input-box button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.note-row {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: #555;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.checkboxes {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.checkboxes label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+.checkboxes input[type="checkbox"]:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.checkbox-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.note ul {
+  margin: 10px 0 0 15px;
+  padding-left: 0;
+  list-style-type: disc;
+}
+.checkbox-section {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+

@@ -1,0 +1,29 @@
+
+
+
+
+
+
+/* File: About.css */
+
+.about-container {
+  padding: 100px 0px;
+  text-align: center;
+  background-color: #E0E0E0; /* Light Grey */
+  color: #191970; /* Dark Blue */
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #191970; /* Dark Blue */
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #696969; /* Dim Gray */
+}

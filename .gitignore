@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment variables
+.env
+*.env
+
+# Model weights (too large for GitHub — upload to Google Drive)
+backend/tinyllama_cleaner_05/
+
+# Runtime data
+backend/datasets/
+backend/integration_configs/
+backend/processing_time.txt
+backend/backend/
+
+# Server uploads
+tabulax-ui/server/uploads/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build output
+tabulax-ui/dist/
+
+# Gemini
+.gemini/

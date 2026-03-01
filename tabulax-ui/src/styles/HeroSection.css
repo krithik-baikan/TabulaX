@@ -1,0 +1,131 @@
+
+
+/* File: HeroSection.css */
+.hero-section {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #E0E0E0; /* Light Grey */
+  color: #191970; /* Dark Blue */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #E0E0E0; /* Light Grey */
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #191970; /* Dark Blue */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #E9967A; /* Dark Salmon */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  background-color: transparent;
+  border: 1px solid #E9967A;
+  color: #E9967A;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #E9967A;
+  color: #fff;
+}
+
+/* .hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #191970;
+} */
+ .hero-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #191970; /* Deep Midnight Blue */
+}
+
+
+.hero-subtext {
+  font-size: 1.2rem;
+  color: #696969;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button.primary {
+  background-color: #ADFF2F; /* Lime Green */
+  color: #191970;
+  border: none;
+}
+
+.cta-button.primary:hover {
+  background-color: #E9967A; /* Dark Salmon */
+  color: #fff;
+}
+
+.hero-graphics {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.graphic {
+  height: 100px;
+}

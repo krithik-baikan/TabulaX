@@ -1,6 +1,6 @@
 # 🧠 TabulaX — Smart Table Integration
 
-An AI-powered data cleaning and feature extraction platform built with **React**, **Node.js/Express**, and a **fine-tuned TinyLlama model**. Upload messy CSV/JSON/PDF files and get cleaned, structured data with extracted features.
+LLM-Orchestrated Data Processing and Feature Engineering Platform built with **React**, **Node.js/Express**, and a **fine-tuned TinyLlama model**. Upload messy CSV/JSON/PDF files and get cleaned, structured data with extracted features.
 
 ---
 

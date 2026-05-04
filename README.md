@@ -172,10 +172,6 @@ Then restart with `npm start`.
 6. **Format Conversion** — Convert to user's chosen format (CSV/JSON/PDF)
 7. **ZIP Packaging** — Bundle all outputs into a downloadable ZIP
 
-## 👥 Authors
-
-- Built as a capstone project for Smart Table Integration
-
 ## 📄 License
 
 MIT

@@ -174,4 +174,4 @@ Then restart with `npm start`.
 
 ## 📄 License
 
-MIT.
+MIT
